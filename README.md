@@ -1,6 +1,6 @@
 # matsim-rwa
 
-RWA = Reichweitenassistent
+RWA = Reichweitenassistent or range assistant
 
 A project created for fleet-based route planning of electric vehicles in Germany, based on matsim-org/matsim-example-project.
 
