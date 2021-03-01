@@ -17,7 +17,7 @@
  *                                                                         *
  * *********************************************************************** */
 
-package org.matsim.project;/*
+package org.matsim.run;/*
  * created by jbischoff, 19.03.2019
    modified for RWA by mattjweist, 01.03.2021
  */
