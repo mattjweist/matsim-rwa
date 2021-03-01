@@ -1,5 +1,7 @@
 # matsim-rwa
 
+RWA = Reichweitenassistent
+
 A project created for fleet-based route planning of electric vehicles in Germany, based on matsim-org/matsim-example-project.
 
 A recommended directory structure is as follows:
