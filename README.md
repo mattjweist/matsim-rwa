@@ -1,6 +1,6 @@
 # matsim-rwa
 
-A project created for fleet-based route planning of electric vehicles, based on matsim-org/matsim-example-project.
+A project created for fleet-based route planning of electric vehicles in Germany, based on matsim-org/matsim-example-project.
 
 A recommended directory structure is as follows:
 * `src` contains the program to run the simulation
