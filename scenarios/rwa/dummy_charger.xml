@@ -1,0 +1,5 @@
+<!DOCTYPE chargers SYSTEM "http://matsim.org/files/dtd/chargers_v1.dtd">
+
+<chargers>
+	<charger id="68639" link="126170" plug_power="50.0" plug_count="1"/>
+</chargers>
