@@ -58,7 +58,7 @@ public class RunRWA {
 				configUrl = localConfigFile.toURI().toURL();
 			} else {
 				log.info("Starting simulation run with the example config file from GitHub repository");
-				configUrl = new URL("https://raw.githubusercontent.com/mattjweist/matsim-rwa/"
+				configUrl = new URL("https://raw.githubusercontent.com/matsim-org/matsim/master/contribs/ev/"
 						+ DEFAULT_CONFIG_FILE);
 			}
 		}
