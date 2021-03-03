@@ -24,7 +24,7 @@
     </module>
 
     <module name="controler">
-        <param name="outputDirectory" value="./output"/>
+        <param name="outputDirectory" value="./output/rwa"/>
         <param name="firstIteration" value="0"/>
         <param name="lastIteration" value="10"/>
         <param name="eventsFileFormat" value="xml"/>
@@ -45,7 +45,7 @@
         <param name="BrainExpBeta" value="2.0"/>
 
 		<param name="lateArrival" value="-18"/>
-		<param name="earlyDeparture" value="0"/>
+		<param name="earlyDeparture" value="-0"/>
 		<param name="performing" value="+6"/>
 		<param name="traveling" value="-6"/>
 		<param name="waiting" value="-0"/>
@@ -69,7 +69,7 @@
 			<param name="openingTime" value="00:01:00"/>
 			<param name="closingTime" value="23:59:00"/>
 			<param name="typicalDurationScoreComputation" value="relative"/>
-			<param name="scoringThisActivityAtAll" value="true"/>
+			<param name="scoringThisActivityAtAll" value="false"/>
 		</parameterset>
 			
 		
