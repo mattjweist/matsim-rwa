@@ -63,8 +63,8 @@ public class GenerateChargersFromTxt {
         
         // read in the .txt file created from open charge maps API
         // parse the .txt file for charging station properties
-        BufferedReader br = new BufferedReader(new FileReader("C:/Users/Weist/Desktop/RWA/Charging_stations/ChgStations.txt"));  
-        String line = null;  
+        BufferedReader br = new BufferedReader(new FileReader("C:/Users/Weist/Desktop/github/matsim-rwa/src/main/java/rwa/chargingStations/ChgStations.txt"));  
+        String line = null; 
         while ((line = br.readLine()) != null) {
         	String[] chargerProperties = line.split(",");
         	String idNumber = chargerProperties[0];
@@ -75,7 +75,7 @@ public class GenerateChargersFromTxt {
             Coord c = ct.transform(new Coord(lon, lat));
             Link l = NetworkUtils.getNearestLink(filteredNet, c);
             // Id<Charger> carCharger = Id.create(l.getId().toString() + "fast", Charger.class);
-            // use original charger ID instead
+            // use open charge map charger ID instead...
             Id<Charger> carCharger = Id.create(idNumber, Charger.class);
 			ChargerSpecification fastCharger = ImmutableChargerSpecification.newBuilder()
                     .id(carCharger)
@@ -83,7 +83,7 @@ public class GenerateChargersFromTxt {
 					.plugCount(quantity)
 					.linkId(l.getId()) 
 					.chargerType("fast")
-					// "RunEvExample" from ev contrib will fail if chargerType is included in chargers.xml
+					// Note: RunRWA.java may not work if chargerType is included in chargers.xml
 					.build();
             chargers.put(carCharger, fastCharger);
         }
