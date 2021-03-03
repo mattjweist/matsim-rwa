@@ -2,14 +2,14 @@
 
 RWA = Reichweitenassistent or range assistant
 
-A project created for fleet-based route planning of electric vehicles in Germany, based on matsim-org/matsim-example-project.
+A project created for fleet-based route planning of electric vehicles in Germany, based on matsim-org/matsim-example-project (https://github.com/matsim-org/matsim-example-project)
 
 Directory structure is as follows:
 * `src` contains the program to run the simulation
 * `scenarios` contains the simulation scenarios:
   * One subdirectory for each scenario, e.g. `scenarios/rwa`.
   * This minimally contains a config file, a network file, and a population file.
-  * Output goes one level down, e.g. `scenarios/rwa/output/...`.
+* `output` contains the simulation output
   
   
 ### Import into eclipse
@@ -22,11 +22,6 @@ sequence of windows; it is important that you import as 'general project'._
 Sometimes, step 3 does not work, in particular after previously failed attempts.  Sometimes, it is possible to
 right-click to `configure->convert to maven project`.  If that fails, the best thing seems to remove all 
 pieces of the failed attempt in the directory and start over.
-
-### Import into IntelliJ
-
-`File -> New -> Project from Version Control` paste the repository url and hit 'clone'. IntelliJ usually figures out
-that the project is a maven project. If not: `Right click on pom.xml -> import as maven project`.
 
 ### Java Version
 
