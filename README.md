@@ -23,11 +23,6 @@ Sometimes, step 3 does not work, in particular after previously failed attempts.
 right-click to `configure->convert to maven project`.  If that fails, the best thing seems to remove all 
 pieces of the failed attempt in the directory and start over.
 
-### Import into IntelliJ
-
-`File -> New -> Project from Version Control` paste the repository url and hit 'clone'. IntelliJ usually figures out
-that the project is a maven project. If not: `Right click on pom.xml -> import as maven project`.
-
 ### Java Version
 
 The project uses Java 11. Usually a suitable SDK is packaged within IntelliJ or Eclipse. Otherwise, one must install a 
