@@ -9,7 +9,7 @@ Directory structure is as follows:
 * `scenarios` contains the simulation scenarios:
   * One subdirectory for each scenario, e.g. `scenarios/rwa`.
   * This minimally contains a config file, a network file, and a population file.
-  * Output goes one level down, e.g. `scenarios/rwa/output/...`.
+* `output` contains the simulation output
   
   
 ### Import into eclipse
