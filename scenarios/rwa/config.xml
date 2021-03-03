@@ -26,7 +26,7 @@
     <module name="controler">
         <param name="outputDirectory" value="./output/rwa"/>
         <param name="firstIteration" value="0"/>
-        <param name="lastIteration" value="10"/>
+        <param name="lastIteration" value="1"/>
         <param name="eventsFileFormat" value="xml"/>
         <param name="mobsim" value="qsim"/>
     </module>
@@ -64,8 +64,8 @@
 
 		<parameterset type="activityParams">
 			<param name="activityType" value="car charging interaction"/>
-			<param name="typicalDuration" value="01:30:00"/>
-			<param name="minimalDuration" value="00:15:00" />
+			<param name="typicalDuration" value="00:30:00"/>
+			<param name="minimalDuration" value="00:05:00" />
 			<param name="openingTime" value="00:01:00"/>
 			<param name="closingTime" value="23:59:00"/>
 			<param name="typicalDurationScoreComputation" value="relative"/>

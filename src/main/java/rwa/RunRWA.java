@@ -1,7 +1,4 @@
 /* *********************************************************************** *
- * project: org.matsim.*
- *                                                                         *
- * *********************************************************************** *
  *                                                                         *
  * copyright       : (C) 2016 by the members listed in the COPYING,        *
  *                   LICENSE and WARRANTY file.                            *
@@ -17,7 +14,7 @@
  *                                                                         *
  * *********************************************************************** */
 
-package org.matsim.run;/*
+package rwa;/*
  * created by jbischoff, 19.03.2019
    modified for RWA by mattjweist, 01.03.2021
  */
