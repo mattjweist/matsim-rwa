@@ -65,6 +65,7 @@ public class GenerateChargersFromTxt {
         // parse the .txt file for charging station properties
         BufferedReader br = new BufferedReader(new FileReader("C:/Users/Weist/Desktop/github/matsim-rwa/src/main/java/rwa/chargingStations/ChgStations.txt"));  
         String line = null; 
+        int runningCount = 0; // number of plugs
         while ((line = br.readLine()) != null) {
         	String[] chargerProperties = line.split(",");
         	String idNumber = chargerProperties[0];
@@ -72,6 +73,7 @@ public class GenerateChargersFromTxt {
         	double lat = Double.parseDouble(chargerProperties[2]);
         	double power = Double.parseDouble(chargerProperties[3]);
         	int quantity = Integer.parseInt(chargerProperties[4]);
+        	runningCount += quantity;
             Coord c = ct.transform(new Coord(lon, lat));
             Link l = NetworkUtils.getNearestLink(filteredNet, c);
             // Id<Charger> carCharger = Id.create(l.getId().toString() + "fast", Charger.class);
@@ -88,5 +90,6 @@ public class GenerateChargersFromTxt {
             chargers.put(carCharger, fastCharger);
         }
         new ChargerWriter(chargers.values().stream()).write(folder + "chargers.xml");
+        System.out.print(runningCount);
     }
 }
