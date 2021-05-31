@@ -3,6 +3,7 @@
 <chargers>
 	<charger id="101308" link="535325" plug_power="50.0" plug_count="1"/>
 	<charger id="76264" link="232635" plug_power="50.0" plug_count="2"/>
+	<charger id="271262" link="210332" plug_power="350.0" plug_count="6"/>
 	<charger id="136300" link="84408" plug_power="50.0" plug_count="1"/>
 	<charger id="101786" link="265504" plug_power="50.0" plug_count="1"/>
 	<charger id="101305" link="460853" plug_power="50.0" plug_count="1"/>
@@ -24,6 +25,7 @@
 	<charger id="141908" link="279944" plug_power="50.0" plug_count="1"/>
 	<charger id="148420" link="54957" plug_power="50.0" plug_count="1"/>
 	<charger id="122110" link="320571" plug_power="50.0" plug_count="1"/>
+	<charger id="271484" link="474476" plug_power="75.0" plug_count="1"/>
 	<charger id="55348" link="245958" plug_power="50.0" plug_count="1"/>
 	<charger id="181696" link="472667" plug_power="350.0" plug_count="4"/>
 	<charger id="180244" link="453620" plug_power="175.0" plug_count="4"/>
@@ -92,6 +94,7 @@
 	<charger id="150937" link="224992" plug_power="50.0" plug_count="1"/>
 	<charger id="78145" link="532969" plug_power="50.0" plug_count="1"/>
 	<charger id="58538" link="519891" plug_power="50.0" plug_count="1"/>
+	<charger id="271286" link="93435" plug_power="350.0" plug_count="4"/>
 	<charger id="137971" link="193550" plug_power="50.0" plug_count="1"/>
 	<charger id="137972" link="216994" plug_power="50.0" plug_count="1"/>
 	<charger id="184916" link="159256" plug_power="50.0" plug_count="1"/>
@@ -388,8 +391,13 @@
 	<charger id="146850" link="185659" plug_power="50.0" plug_count="2"/>
 	<charger id="146856" link="212525" plug_power="50.0" plug_count="1"/>
 	<charger id="123731" link="248482" plug_power="50.0" plug_count="1"/>
+	<charger id="271422" link="4343" plug_power="350.0" plug_count="4"/>
+	<charger id="271423" link="428337" plug_power="350.0" plug_count="4"/>
 	<charger id="181989" link="266294" plug_power="350.0" plug_count="4"/>
+	<charger id="271424" link="379322" plug_power="350.0" plug_count="4"/>
+	<charger id="271425" link="165942" plug_power="350.0" plug_count="4"/>
 	<charger id="143108" link="389257" plug_power="50.0" plug_count="1"/>
+	<charger id="271426" link="165953" plug_power="350.0" plug_count="4"/>
 	<charger id="122529" link="430019" plug_power="50.0" plug_count="1"/>
 	<charger id="129396" link="448899" plug_power="50.0" plug_count="1"/>
 	<charger id="234351" link="9280" plug_power="62.0" plug_count="2"/>
@@ -484,6 +492,7 @@
 	<charger id="131461" link="353676" plug_power="50.0" plug_count="1"/>
 	<charger id="108364" link="48590" plug_power="50.0" plug_count="1"/>
 	<charger id="132675" link="527946" plug_power="50.0" plug_count="1"/>
+	<charger id="271325" link="266362" plug_power="350.0" plug_count="4"/>
 	<charger id="101843" link="321300" plug_power="50.0" plug_count="1"/>
 	<charger id="100756" link="231297" plug_power="50.0" plug_count="1"/>
 	<charger id="72568" link="479122" plug_power="50.0" plug_count="3"/>

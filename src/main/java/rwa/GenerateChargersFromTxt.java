@@ -14,7 +14,7 @@
  *                                                                         *
  * *********************************************************************** */
 
-package rwa.chargingStations;/*
+package rwa;/*
  * created by jbischoff, 12.10.2018
  * edited by mattjweist, 19.02.2021
  * has not been tested in RWA package, could possibly require updating pom.xml
@@ -63,7 +63,7 @@ public class GenerateChargersFromTxt {
         
         // read in the .txt file created from open charge maps API
         // parse the .txt file for charging station properties
-        BufferedReader br = new BufferedReader(new FileReader("C:/Users/Weist/Desktop/github/matsim-rwa/src/main/java/rwa/chargingStations/ChgStations.txt"));  
+        BufferedReader br = new BufferedReader(new FileReader("C:/Users/Weist/Desktop/Projekt/chargingStations/ChgStations.txt"));  
         String line = null; 
         int runningCount = 0; // number of plugs
         while ((line = br.readLine()) != null) {
